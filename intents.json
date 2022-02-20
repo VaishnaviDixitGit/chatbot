@@ -1,0 +1,142 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello! thanks for visiting", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting!", "Have a nice day!", "Bye! Come back again soon."],
+         "context_set": ""
+        },
+	{"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "introduction",
+         "patterns": ["what is dsc", "what does dsc do", "who is dsc", "dsc?", "what does dsc stand for?"],
+         "responses": ["DSC stands for the Developer Student Clubs. We are a team that excels in raising and transmitting technical and leadership skills in students. The GDSC program is a mainstream channel through which Google providers development skills. We train our students to learn development skills, and solve technical problems through technology. We collaborate with different institutions with contribution of faculty members also taken into heed."],
+         "context_set": ""
+        },
+        {"tag": "domain",
+         "patterns": ["what are dsc domains", "what domains train", "dsc domains"],
+         "responses": ["DSC trains in domains like Web and Application Development, Machine learning and Artificial  Intelligence, Cloud Computing, Design, and Competitive Programming."],
+         "context_set": ""
+        },
+	{"tag": "sessions",
+         "patterns": ["what sessions dsc has", "types of sessions", "sessions", "which sessions"],
+         "responses": ["DSC conducts various sessions including Google Solution Challenge, Hands-on Workshops, Expert Tech Talks, Study Jams, Bootcamps, Explore ML, Roadmap Sessions, and Tech Programs."],
+         "context_set": ""
+        },
+	{"tag": "events",
+         "patterns": ["what events", "what events does dsc organize", "what events does dsc conduct", "events"],
+         "responses": ["DSC conducts multifarious events throughout the year. Some recent events include Android Study Jams, 30 Days GCP, Hacktober Fest, Google Solution Challenge, and DSC WOW Hackathon. To know more about upcoming events, connect with us anywhere website: https://gdsc.community.dev/sies-graduate-school-of-technology-navi-mumbai/ , Discord: https://bit.ly/GDSCSIESGSTDiscord , Instagram: https://bit.ly/GDSCSIESGSTInstagram , YouTube: https://bit.ly/GDSCSIESGSTYouTube, LinkedIn: https://bit.ly/GDSCSIESGSTLinkedIn, Twitter: https://bit.ly/GDSCSIESGSTTwitter "],
+         "context_set": ""
+        },
+        {"tag": "coreteams",
+        "patterns": ["what are dsc core teams", "core teams", "which teams are in core", "dsc core"],
+        "responses": ["DSC Core Teams include the Web and App Development Team, the ML & AI Team, the Design Team, the Social Media and Publicity Team, and the Administration and Management Team."],
+        "context_set": ""
+        },
+        {"tag": "connect",
+         "patterns": ["where to connect", "what are the socials", "membership", "where to reach", "where to contact", "where to follow", "follow on social media", "connect on social media"],
+         "responses": ["Reach us here, website: https://gdsc.community.dev/sies-graduate-school-of-technology-navi-mumbai/ , Discord: https://bit.ly/GDSCSIESGSTDiscord , Instagram: https://bit.ly/GDSCSIESGSTInstagram , YouTube: https://bit.ly/GDSCSIESGSTYouTube, LinkedIn: https://bit.ly/GDSCSIESGSTLinkedIn, Twitter: https://bit.ly/GDSCSIESGSTTwitter"],
+         "context_set": ""
+        },
+        {"tag": "join",
+         "patterns": ["who should join DSC", "why join dsc", "why member of dsc"],
+         "responses": ["DSC welcomes university students (undergraduate or post-graduate) who are enthusiastic to learn development skills, passionate about solving problems with technology, inspired to become changemakers."],
+         "context_set": ""
+        },
+        {"tag": "notsies",
+        "patterns": ["not from sies", "not sies gst student", "i'm not sies gst student", "non sies student"],
+        "responses": ["Absolutely! It’s OK to join even if you are not from SIES GST, as long as you don’t wreak havoc here. Crash into our Discord server while you’re at it."],
+        "context_set": ""
+        },
+        {"tag": "notcs",
+         "patterns": ["not from computer science background", "from different background", "not from cs", "non computer background","different branch"],
+         "responses": ["Ofcourse, It's okay to join even if you are not from Computer Science background, as long as you have the passion for building a better tomorrow with technology."],
+         "context_set": ""
+        },
+        {"tag": "perks",
+        "patterns": ["advantages", "perks", "benefits", "goodies", "certificates"],
+        "responses": ["Become part of our community to access Google Developer resources and opportunities for free, and also help grow your personal and professional network."],
+        "context_set": ""
+        },
+        {"tag": "applycore",
+        "patterns": ["apply to core", "work in core", "work of core team", "part of core", "joining core"],
+        "responses": ["The core team is a group of contributing members who are responsible for GSDC SIES GST's operations, including the planning and execution of activities and events.We take interviews for the core team on annual basis."],
+        "context_set": ""
+        },
+        {"tag": "skillgain",
+        "patterns": ["unique skills", "obtain skills", "gain skills", "What unique skills can we obtain", "abilities gain from DSC"],
+        "responses": ["The DSC clubs are intended as a space for students to try out new ideas and collaborate to solve mobile and web development problems."],
+        "context_set": ""
+        },
+        {"tag": "goaldsc",
+        "patterns": ["what is goal of dsc", "purpose of dsc", "why dsc established", "idea of dsc", "intent of dsc"],
+        "responses": ["Developer Students Club opts to shape student developers for a better future by teaching them various technical as well as non-technical skills"],
+        "context_set": ""
+        },
+        {"tag": "fcltprojhead",
+        "patterns": ["what is facilitator", "role of facilitator", "work of facilitator", "what does facilitator do", "what is project head","role of project head", "work of project head", "what does project head do"],
+        "responses": ["The head of core team mentors the projects."],
+        "context_set": ""
+        },
+        {"tag": "lead",
+        "patterns": ["role of lead", "work of lead", "what does lead do", "how to become lead"],
+        "responses": ["The core team is a group of contributing members who are responsible for GSDC SIES GST's operations, including the planning and execution of activities and events.We take interviews for the core team on annual basis."],
+        "context_set": ""
+        },
+        {"tag": "afterdsc",
+        "patterns": ["certificate completion of term", "what do i get after completing term with dsc", "do i get anything on completing term"],
+        "responses": ["Upon completing the term, a certificate will be given to you along with some great learning experiences!"],
+        "context_set": ""
+        },
+        {"tag": "multi",
+        "patterns": ["can i join multiple domains", "work in multiple domains", "more than one domain", "multiple teams", "more than one team", "do i have to join only one team", "can i be in one domain only"],
+        "responses": ["Yes, you can join multiple domains."],
+        "context_set": ""
+        },
+        {"tag": "prereq",
+        "patterns": ["what is needed to join dsc", "prerequisites for dsc", "skills needed", "minimum skills required", "requirements", "mandatory skills"],
+        "responses": ["A person must possess leadership qualities, team coordination and, most importantly, a thirst for learning and exploration."],
+        "context_set": ""
+        },
+        {"tag": "projs",
+        "patterns": ["what projects working", "work in dsc", "what tasks working in dsc", "examples of projects", "project work in dsc"],
+        "responses": ["The project depends on the team which you are part of.These are the projects/challenges you will work on when you become the part of DSC team -Google Solution Challenge,Hands-on Workshops,Bootcamps,Study Jams,Expert Tech Talks,Tech Programs,Explore ML,Roadmap Sessions."],
+        "context_set": ""
+        },
+        {"tag": "solnchllg",
+        "patterns": ["what is solution challenge", "google solution challenge", "what to do in solution challenge", "what do i learn from solution challenge", "outcome of solution challenge", "problems in solution challenge"],
+        "responses": ["The core team is a group of contributing members who are responsible for GSDC SIES GST's operations, including the planning and execution of activities and events.We take interviews for the core team on annual basis."],
+        "context_set": ""
+        },
+        {"tag": "cloud",
+        "patterns": ["what is 30 days of google cloud", "when is 30 days of google cloud", "what do i get from 30 days of google cloud", "how long is google cloud", "how to participate in 30 days of google cloud", "what are rewards from 30 days of google cloud"],
+        "responses": ["Google Cloud in collaboration with Developer Students Club (DSC) provides an opportunity to students to start their journey in cloud programming with hands-on labs on Google Cloud Platform that powers apps like Google Search, Gmail, and YouTube. Along the way, you will learn and practice cloud concepts like computing, big data, application developments, and machine learning. It usually takes place in October every year."],
+        "context_set": ""
+        },
+        {"tag": "android",
+        "patterns": ["what are android study jams", "when are android study jams", "what do i get from android study jams", "how long are android study jams", "how to participate in android study jams", "what are rewards from android study jams"],
+        "responses": ["Android Study Jams are community events where developers come together to learn, create, and collaborate. Participants will follow guided codelabs designed to improve their development skills, all with an extra focus on improving the quality of applications."],
+        "context_set": ""
+        },
+        {"tag": "exploreml",
+        "patterns": ["what is explore ml", "what is explore machine learning", "how many levels in explore ml","when is explore ml", "what do i get from explore ml", "how long is explore ml", "how to participate in explore ml", "what are rewards from explore ml"],
+        "responses": ["Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning.Explore ML is a 2-day training experience for student facilitators to get familiar with the programs’ content, meet one another and connect to Googlers."],
+        "context_set": ""
+        },
+        {"tag": "devfest",
+        "patterns": ["what is devfest","developer fest", "when is devfest", "what do i get from devfest", "how long is devfest", "how to participate in devfest", "what are rewards from devfest"],
+        "responses": ["DevFest India is the largest annual developer’s fest organized by Google Developer Groups across India.It is an 3 days event packed with learning, networking, experimenting and swags for few winners!"],
+        "context_set": ""
+        },
+        {"tag": "upcoming",
+        "patterns": ["future sessions of dsc", "upcoming events of dsc", "future events of dsc", "upcoming sessions", "new events", "new sessions", "future projects","upcoming projects", "new projects from dsc"],
+        "responses": ["The core team is a group of contributing members who are responsible for GSDC SIES GST's operations, including the planning and execution of activities and events.We take interviews for the core team on annual basis."],
+        "context_set": ""
+        }        
+   ]
+}
